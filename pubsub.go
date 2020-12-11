@@ -63,7 +63,7 @@ func (this *PubSub) Initialize() error {
 		MaxBytes: 1024 * 1024 * 16,
 		MaxDocs:  1024,
 	})
-	if err != nil && strings.Contains(err.Error(), "collection '"+ this.database + "." + this.collection + "' already exists") {
+	if err != nil && strings.Contains(err.Error(), this.database + "." + this.collection) && strings.Contains(err.Error(), "already exists") {
 		return nil
 	}
 	return err
