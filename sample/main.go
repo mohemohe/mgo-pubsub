@@ -1,7 +1,7 @@
 package main
 
 import (
-	mgo_pubsub "github.com/mobilusoss/mgo-pubsub"
+	mgo_pubsub "github.com/mohemohe/mgo-pubsub"
 	"log"
 	"sync"
 	"time"

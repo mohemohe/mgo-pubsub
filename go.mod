@@ -1,4 +1,4 @@
-module github.com/mobilusoss/mgo-pubsub
+module github.com/mohemohe/mgo-pubsub
 
 go 1.12
 
